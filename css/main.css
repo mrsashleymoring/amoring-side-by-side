@@ -209,20 +209,9 @@ font-family: 'Stalemate', cursive;*/
     max-width: 300px;
   }
 
-  /* Name as Image 
-
-
   .name {
     margin: 0;
   }
-
-  .name img {
-    width: 200%;
-  }
-
-  
- */
-
 
   footer {
     text-align: center;
@@ -500,7 +489,7 @@ font-family: 'Stalemate', cursive;*/
     align-items: start;
   }
 
-  header figure {
+  header .logo {
     margin: 0 0 -40px -60px ;
   }
 
