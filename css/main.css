@@ -106,7 +106,7 @@ font-family: 'Stalemate', cursive;*/
   html {
     font-size: 16px;
     background-color: #fed5ca;
-    background: url(../img/desktop.png) no-repeat center center fixed; 
+    background: url(../img/desktop.png) no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -353,9 +353,6 @@ font-family: 'Stalemate', cursive;*/
   font-size: 1.3125em;
 }
 
-.social-icons img {
-  width: 80%;
-}
 
 
 /* Aside */
@@ -416,6 +413,14 @@ font-family: 'Stalemate', cursive;*/
 
     .about-page .section-two{
       display: none;
+    }
+
+    .intro img {
+      border: solid 2px #fed5ca;
+    }
+
+    .intro figure {
+      max-width: 300px;
     }
 
 
@@ -638,9 +643,13 @@ font-family: 'Stalemate', cursive;*/
   }
 
   .intro figure {
-    width: 40%;
+    max-width: 300px;
+    width: 25%;
     flex: 1;
+    margin-left: 60px;
   }
+
+
 
   .intro .content-wrapper {
    width: 50%;
